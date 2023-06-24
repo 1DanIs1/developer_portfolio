@@ -8,6 +8,7 @@ header {
     justify-content: space-between;
     align-items: center;
     color: bisque;
+    height: 150px;
 }
 
 header img {
@@ -22,31 +23,55 @@ h1 {
     margin-left: 40px;
     color: #7B4D0A;
     background-color: transparent;
-
+    font-size: 60px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #7B4D0A;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+
+
+/*
 nav ul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
-    min-width: 400px;
+    min-width: 600px;
     background-color: #7B4D0A;
     padding: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 50px;
     background-color: transparent;
 }
 
-button {
+nav a {
     display: flex;
     background-color: #7B4D0A;
     border: none;
+    text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #7B4D0A;
-    font-size:large;
+    font-size:medium;
     background-color: transparent;
 }
+*/
 
 main {
     display: flex;
@@ -55,6 +80,12 @@ main {
     margin-top: 2%;
     display: inline-block;
     }
+
+.aboutmehead img {
+    display: flex;
+    flex-direction: row;
+    
+}
 
 .aboutmehead {
     display: inline-flex;
@@ -66,6 +97,9 @@ main {
     margin-top: 10px;
     justify-content: right;
 }
+
+
+
 
 .aboutmebody {
     display: inline-flex;
@@ -82,7 +116,7 @@ main {
     text-align: right;
     padding-right: 10px;
     border-right: #F4AA3F solid;
-    height: 400px;
+    height: 600px;
     margin-top: 10px;
     justify-content: right;
 }
@@ -90,7 +124,7 @@ main {
 .workbody {
     display: inline-flex;
     padding-left: 50px;
-    height: 400px;
+    height: 600px;
     width: 55%;
     text-align: left;
     margin-top: 10px;
