@@ -1,1 +1,79 @@
+* {
+    background-color: #E8C99B;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7B4D0A;
+    color: bisque;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40px;
+    background-color: #7B4D0A;
+}
+
+nav ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    background-color: #7B4D0A;
+    padding: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+button {
+    display: flex;
+    background-color: #7B4D0A;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-between;
+
+}
+
+.aboutme {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.work {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contact {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.cardleft {
+    border-width: 1px;
+    flex: 1 0 0;
+    padding: 10px;
+    border-style: solid;
+    text-align: right;
+    width: 30%;
+
+}
+
+.cardright {
+    border-width: 1px;
+    flex: 1 0 0;
+    padding: 10px;
+    border-style: solid;
+}
