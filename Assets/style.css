@@ -85,8 +85,15 @@ main {
 
 .work {
     display: flex;
+}  
 
-}    
+.about {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+}
 
 
 .aboutmehead {
@@ -146,7 +153,7 @@ main {
     text-align: right;
     padding-right: 10px;
     border-right: #F4AA3F solid;
-    height: 400px;
+    height: 200px;
     margin-top: 10px;
     justify-content: right;
 }
@@ -154,7 +161,7 @@ main {
 .contactbody {
     display: inline-flex;
     padding-left: 50px;
-    height: 400px;
+    height: 200px;
     width: 65%;
     text-align: left;
     margin-top: 10px;
