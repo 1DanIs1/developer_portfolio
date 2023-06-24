@@ -73,6 +73,8 @@ nav a {
 }
 */
 
+
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -81,11 +83,11 @@ main {
     display: inline-block;
     }
 
-.aboutmehead img {
+.work {
     display: flex;
-    flex-direction: row;
-    
-}
+
+}    
+
 
 .aboutmehead {
     display: inline-flex;
@@ -105,7 +107,7 @@ main {
     display: inline-flex;
     padding-left: 50px;
     height: 400px;
-    width: 55%;
+    width: 65%;
     text-align: left;
     margin-top: 10px;
 }
@@ -113,22 +115,30 @@ main {
 .workhead {
     display: inline-flex;
     width: 30%;
-    text-align: right;
+    justify-content: right;
     padding-right: 10px;
     border-right: #F4AA3F solid;
     height: 600px;
     margin-top: 10px;
-    justify-content: right;
 }
+
+
 
 .workbody {
     display: inline-flex;
-    padding-left: 50px;
     height: 600px;
-    width: 55%;
+    width: 65%;
     text-align: left;
     margin-top: 10px;
+    padding-left: 50px;
 }
+
+.workbody img {
+    width: 50%;
+    padding-top: 30px;
+
+}
+
 
 .contacthead {
     display: inline-flex;
@@ -145,7 +155,7 @@ main {
     display: inline-flex;
     padding-left: 50px;
     height: 400px;
-    width: 55%;
+    width: 65%;
     text-align: left;
     margin-top: 10px;
 }
