@@ -11,11 +11,6 @@ header {
     height: 150px;
 }
 
-header img {
-    max-height: 100px;
-    display: flex;
-    width: 100%;
-}
 
 
 h1 {
@@ -49,31 +44,6 @@ nav ul {
   }
 
 
-/*
-nav ul {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    min-width: 600px;
-    background-color: #7B4D0A;
-    padding: 40px;
-    font-size: 50px;
-    background-color: transparent;
-}
-
-nav a {
-    display: flex;
-    background-color: #7B4D0A;
-    border: none;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #7B4D0A;
-    font-size:medium;
-    background-color: transparent;
-}
-*/
-
-
 
 main {
     display: flex;
@@ -104,11 +74,17 @@ main {
     border-right: #F4AA3F solid;
     height: 400px;
     margin-top: 10px;
-    justify-content: right;
 }
 
+.aboutmehead img {
+    display: flex;
+    margin-left: 10px;
+    border-style: ridge;
+    height: 90%;
+    overflow: hidden;
+    float: left;
 
-
+}
 
 .aboutmebody {
     display: inline-flex;
@@ -174,80 +150,10 @@ footer {
 }
 
 
-/*
-.floatleft {
-    float: left;
-    width: 30%;
-    height: 400px;
-}
 
-.floatright {
-    float: right;
-    width: 70%;
-    height: 400px;
-}
+@media screen and (max-width: 768px) {
 
-/*
-#aboutme {
-    display:flex;
-    flex-wrap: wrap;
-    width: 30%;
-}
-
-#work {
-    display:flex;
-    flex-wrap: wrap;
-}
-
-#contact {
-    display:flex;
-    flex-wrap: wrap;
-}
-
-.cardleft1 {
-    padding-right: 10px;
-    border-width: 1px;
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: right;
-}
-
-.cardright1 {
-    width: 70%;
-    border-width: 1px;
-    flex: 1 0 0;
-    padding: 10px;
-    border-style: solid;
-}
-
-.cardleft2 {
-    padding-right: 10px;
-    border-width: 1px;
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: right;
-}
-
-.cardright2 {
-    width: 70%;
-    border-width: 1px;
-    flex: 1 0 0;
-    padding: 10px;
-    border-style: solid;
-}
-
-.cardleft3 {
-    padding-right: 10px;
-    border-width: 1px;
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: right;
-}
-
-.cardright3 {
-    width: 70%;
-    border-width: 1px;
-    flex: 1 0 0;
-    padding: 10px;
-    border-style: solid;
+    main, {
+      flex-direction: column;
+    }
 }
