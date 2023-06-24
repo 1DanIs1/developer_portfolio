@@ -1,19 +1,28 @@
 * {
-    background-color: #E8C99B;
+    background-color: #F5DBB6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7B4D0A;
     color: bisque;
 }
 
+header img {
+    max-height: 100px;
+    display: flex;
+    width: 100%;
+}
+
+
 h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:monospace;
     margin-left: 40px;
-    background-color: #7B4D0A;
+    color: #7B4D0A;
+    background-color: transparent;
+
 }
 
 nav ul {
@@ -25,7 +34,8 @@ nav ul {
     padding: 40px;
     margin-top: 0px;
     margin-bottom: 0px;
-    
+    font-size: 50px;
+    background-color: transparent;
 }
 
 button {
@@ -33,45 +43,158 @@ button {
     background-color: #7B4D0A;
     border: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: bisque;
+    color: #7B4D0A;
+    font-size:large;
+    background-color: transparent;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 2%;
-    justify-content: space-between;
+    display: inline-block;
+    }
 
+.aboutmehead {
+    display: inline-flex;
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+    border-right: #F4AA3F solid;
+    height: 400px;
+    margin-top: 10px;
+    justify-content: right;
 }
 
-.aboutme {
+.aboutmebody {
+    display: inline-flex;
+    padding-left: 50px;
+    height: 400px;
+    width: 55%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.workhead {
+    display: inline-flex;
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+    border-right: #F4AA3F solid;
+    height: 400px;
+    margin-top: 10px;
+    justify-content: right;
+}
+
+.workbody {
+    display: inline-flex;
+    padding-left: 50px;
+    height: 400px;
+    width: 55%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.contacthead {
+    display: inline-flex;
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+    border-right: #F4AA3F solid;
+    height: 400px;
+    margin-top: 10px;
+    justify-content: right;
+}
+
+.contactbody {
+    display: inline-flex;
+    padding-left: 50px;
+    height: 400px;
+    width: 55%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    padding-top: 60px;
+}
+
+
+/*
+.floatleft {
+    float: left;
+    width: 30%;
+    height: 400px;
+}
+
+.floatright {
+    float: right;
+    width: 70%;
+    height: 400px;
+}
+
+/*
+#aboutme {
+    display:flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+#work {
     display:flex;
     flex-wrap: wrap;
 }
 
-.work {
+#contact {
     display:flex;
     flex-wrap: wrap;
 }
 
-.contact {
-    display:flex;
-    flex-wrap: wrap;
+.cardleft1 {
+    padding-right: 10px;
+    border-width: 1px;
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: right;
 }
 
-
-.cardleft {
+.cardright1 {
+    width: 70%;
     border-width: 1px;
     flex: 1 0 0;
     padding: 10px;
     border-style: solid;
-    text-align: right;
-    width: 30%;
-
 }
 
-.cardright {
+.cardleft2 {
+    padding-right: 10px;
+    border-width: 1px;
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: right;
+}
+
+.cardright2 {
+    width: 70%;
+    border-width: 1px;
+    flex: 1 0 0;
+    padding: 10px;
+    border-style: solid;
+}
+
+.cardleft3 {
+    padding-right: 10px;
+    border-width: 1px;
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: right;
+}
+
+.cardright3 {
+    width: 70%;
     border-width: 1px;
     flex: 1 0 0;
     padding: 10px;
