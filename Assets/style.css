@@ -82,6 +82,7 @@ main {
     border-right: #F4AA3F solid;
     height: 400px;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .aboutmehead img {
@@ -116,6 +117,7 @@ Why does the image throw the text out in the about section?*/
     border-right: #F4AA3F solid;
     height: 600px;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 
@@ -145,6 +147,7 @@ Why does the image throw the text out in the about section?*/
     height: 200px;
     margin-top: 10px;
     justify-content: right;
+    font-weight: bold;
 }
 
 .contactbody {

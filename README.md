@@ -6,18 +6,10 @@ I wanted to create a deployed portfolio of my work samples,
 so that potential employers can review samples of my work and 
 assess whether I'm a good candidate for an open position.
 
-I gained a grreater understanding of how HTML and CSS work together and some of the style
+I gained a greater understanding of how HTML and CSS work together and some of the style
 capabilities of CSS.
 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
