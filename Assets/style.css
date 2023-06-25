@@ -118,8 +118,8 @@ main {
 
 .workbody img {
     width: 50%;
-    padding-top: 30px;
-
+    border-style:groove;
+    border-color: black;
 }
 
 
