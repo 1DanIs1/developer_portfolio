@@ -77,7 +77,7 @@ main {
 }
 
 .aboutmehead img {
-    display: flex;
+    display: inline-block;
     margin-left: 10px;
     border-style: ridge;
     height: 90%;
@@ -98,7 +98,7 @@ main {
 .workhead {
     display: inline-flex;
     width: 30%;
-    justify-content: right;
+    justify-content: flex-end;
     padding-right: 10px;
     border-right: #F4AA3F solid;
     height: 600px;
