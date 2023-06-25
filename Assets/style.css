@@ -79,7 +79,7 @@ main {
 .aboutmehead img {
     display: inline-block;
     margin-left: 10px;
-    border-style: ridge;
+    border-radius: 50%;
     height: 90%;
     overflow: hidden;
     float: left;
