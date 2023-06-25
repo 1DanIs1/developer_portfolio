@@ -21,7 +21,7 @@ h1 {
     font-size: 60px;
 }
 
-/*flex-direction makes the elements stay in their columns when the page is resized*/
+/*flex-direction defines which way the elements flex when the page is resized*/
 
 body {
     display: flex;
@@ -75,25 +75,27 @@ main {
 /*Why aren't the words About Me aligning on the right?*/
 
 .aboutmehead {
-    display: inline-flex;
-    width: 30%;
-    text-justify: right;
+    display: flex;
+    width: 25%;
+    text-align: right;
     padding-right: 10px;
     border-right: #F4AA3F solid;
     height: 400px;
     margin-top: 10px;
     font-weight: bold;
+    justify-content: flex-end;
 }
 
 .aboutmehead img {
-    display: inline-block;
+    display: flex;
     margin-left: 10px;
     border-radius: 50%;
     height: 90%;
     overflow: hidden;
     float: left;
-
 }
+
+
 
 /*See <br> tags in HTML to see how multiple paragraph breaks happens*/
 
@@ -111,7 +113,7 @@ Why does the image throw the text out in the about section?*/
 
 .workhead {
     display: inline-flex;
-    width: 30%;
+    width: 25%;
     justify-content: flex-end;
     padding-right: 10px;
     border-right: #F4AA3F solid;
@@ -127,7 +129,6 @@ Why does the image throw the text out in the about section?*/
     height: 600px;
     width: 65%;
     text-align: left;
-    margin-top: 10px;
     padding-left: 50px;
 }
 
@@ -138,9 +139,10 @@ Why does the image throw the text out in the about section?*/
 }
 
 
+
 .contacthead {
     display: inline-flex;
-    width: 30%;
+    width: 25%;
     text-align: right;
     padding-right: 10px;
     border-right: #F4AA3F solid;
@@ -169,7 +171,7 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-    main, {
+    main {
       flex-direction: column;
     }
 }
