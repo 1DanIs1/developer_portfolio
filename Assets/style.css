@@ -60,15 +60,15 @@ main {
 
 
 
-.work {
+#work {
     display: flex;
 }  
 
-.about {
+#about {
     display: flex;
 }
 
-.contact {
+#contact {
     display: flex;
 }
 
@@ -93,6 +93,7 @@ main {
     height: 90%;
     overflow: hidden;
     float: left;
+    margin-top: 20px;
 }
 
 
@@ -136,6 +137,7 @@ Why does the image throw the text out in the about section?*/
     width: 50%;
     border-style:groove;
     border-color: black;
+    margin-top: 20px;
 }
 
 
