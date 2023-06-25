@@ -11,7 +11,7 @@ header {
     height: 150px;
 }
 
-
+/*need to figure out how to make the whole header transparent to use a banner*/
 
 h1 {
     font-family:monospace;
@@ -21,10 +21,14 @@ h1 {
     font-size: 60px;
 }
 
+/*flex-direction makes the elements stay in their columns when the page is resized*/
+
 body {
     display: flex;
     flex-direction: column;
 }
+
+/*Need to figure out why these nav links aren't moving to the sections in page*/
 
 nav ul {
     display: flex;
@@ -41,6 +45,7 @@ nav ul {
   
   nav a:hover {
     color: #fff;
+    cursor: grab;
   }
 
 
@@ -51,7 +56,9 @@ main {
     flex-direction: column;
     margin-top: 2%;
     display: inline-block;
-    }
+}
+
+
 
 .work {
     display: flex;
@@ -65,6 +72,7 @@ main {
     display: flex;
 }
 
+/*Why aren't the words About Me aligning on the right?*/
 
 .aboutmehead {
     display: inline-flex;
@@ -86,6 +94,8 @@ main {
 
 }
 
+/*See <br> tags in HTML to see how multiple paragraph breaks happens*/
+
 .aboutmebody {
     display: inline-flex;
     padding-left: 50px;
@@ -94,6 +104,9 @@ main {
     text-align: left;
     margin-top: 10px;
 }
+
+/*Text aligns on the right in the work and contact head sections. 
+Why does the image throw the text out in the about section?*/ 
 
 .workhead {
     display: inline-flex;
@@ -149,7 +162,7 @@ footer {
     padding-top: 60px;
 }
 
-
+/*elements flex in their columns as the page is resized*/
 
 @media screen and (max-width: 768px) {
 
