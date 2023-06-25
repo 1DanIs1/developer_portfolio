@@ -69,7 +69,7 @@ main {
 .aboutmehead {
     display: inline-flex;
     width: 30%;
-    text-align: right;
+    text-justify: right;
     padding-right: 10px;
     border-right: #F4AA3F solid;
     height: 400px;
